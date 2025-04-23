@@ -1,6 +1,6 @@
 # **The Avatar's Journey: Facets of a Cross-Cultural Religion**
 
-**The Avatar's Journey** is a cross-cultural religion that draws from the wellsprings of diverse global traditions. It is a profound undertaking, seeking common ground, universal truths, and complementary practices that can resonate with people across cultural divides. This document explores the potential facets of **The Avatar's Journey**, synthesizing ideas from various spiritual paths into a cohesive framework. **Particular attention is given to aspects that can provide guidance, structure, and positive role models, making the faith potentially appealing to young men seeking positive father-figure energy and a sense of purpose.**
+**The Avatar's Journey** is a cross-cultural spiritual path integrating diverse global traditions. It seeks universal truths and practices resonant across cultures. This document outlines its potential facets, blending spiritual ideas into a cohesive framework. **It emphasizes guidance, structure, and role models, potentially appealing to young men seeking direction and purpose.**
 
 ## **Core Framework: Structure and Spheres**
 
@@ -8,9 +8,16 @@
 
 **1\. The Guiding Triangle:** Representing the internal structure and dynamic balance of the faith's elements:
 
-* **Wisdom and Narrative (Bottom Left):** The foundational stories, myths, parables, and accumulated insights from various traditions that provide context, meaning, and lessons about the human condition and the nature of reality. This includes wisdom from texts such as the Tao Te Ching, the Upanishads, the Abrahamic scriptures (featuring figures like Moses, prophetesses like Huldah, and matriarchs like Sarah and Rebekah), the teachings and lives of figures associated with the Buddha (including Mahapajapati Gotami, the first Buddhist nun), narratives involving figures like Arjuna from the Bhagavad Gita, stories of goddesses and the divine feminine from various mythologies (such as Isis, Kali, Durga, and figures from indigenous traditions), the wisdom of mystics like Hildegard of Bingen or Rabia al-Adawiyya, the experiences of female leaders and teachers throughout history (like Catherine of Siena or Sarada Devi), and wisdom from other global traditions. **Emphasis is placed on drawing from the rich tapestry of human stories that have stood the test of time, including those featuring prominent and insightful male and female characters, leaders, and expressions of the divine, offering diverse examples of strength, integrity, and purpose.**  
+* **Wisdom and Narrative (Bottom Left):** Foundational stories, myths, parables, and insights from diverse traditions (e.g., Tao Te Ching, Upanishads, Abrahamic scriptures, Buddhist teachings, Bhagavad Gita, global mythologies, mystical writings, historical accounts). These provide context, meaning, and lessons about life and reality. **Emphasis is on timeless human stories featuring diverse figures (male, female, divine) exemplifying strength, integrity, and purpose.**  
 * **Experiential Connection (Bottom Right):** The realm of personal, subjective, and mystical experiences, including contemplation, meditation, moments of awe, and direct encounters with the divine or ultimate reality. This is the space of intuition, feeling, and ineffable understanding, acknowledging the limits of purely rational understanding.  
 * **Principles and Guidance (Top):** The ethical guidelines, laws, rules of behavior, and understanding of right and wrong that are often derived from observing the consequences of actions (statistical patterns) and are intended to guide both individual and, particularly, group behavior. These principles are informed by both Wisdom and Experience, providing a clear framework for navigating life's challenges, which can be particularly valuable for those seeking direction.
+
+```mermaid
+graph TD
+    PG((Principles & Guidance)) --> WN(Wisdom & Narrative)
+    PG --> EC(Experiential Connection)
+    WN --- EC
+```
 
 These three points are in constant dynamic relationship. Maintaining a healthy balance between Wisdom, Experience, and Principles is essential. When one aspect is overemphasized or confused for another (e.g., mistaking subjective experience for universal rule) or when they become out of equilibrium (e.g., an overemphasis on rules neglecting wisdom or experience), efforts must be made to restore harmony and balance.
 
@@ -19,6 +26,20 @@ These three points are in constant dynamic relationship. Maintaining a healthy b
 * **The Body (Inner Container):** The individual physical and mental self, the primary site where suffering is initially felt as stress, imbalance, or illness.  
 * **The Family/Close Relationships (Middle Container):** The immediate social unit, where individual suffering can spread and cause tension, conflict, or disharmony if not addressed.  
 * **The Community/World (Outer Container):** The wider social network, tribe, society, and the global environment, where unresolved suffering from within the inner containers can contribute to larger-scale issues like conflict, injustice, and environmental degradation.
+
+```mermaid
+graph TD
+    subgraph Outer Container [Community / World]
+        direction LR
+        subgraph Middle Container [Family / Relationships]
+            direction LR
+            subgraph Inner Container [Body]
+                direction LR
+                B(Individual Self)
+            end
+        end
+    end
+```
 
 The principles and practices of **The Avatar's Journey**, guided by wisdom and experience (the Triangle), are applied to navigate challenges and promote well-being within these Three Containers, offering a structured approach to understanding and improving one's place in the world.
 
