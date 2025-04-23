@@ -14,9 +14,25 @@
 
 ```mermaid
 graph TD
-    PG((Principles & Guidance)) --> WN(Wisdom & Narrative)
-    PG --> EC(Experiential Connection)
+    PG((Principles & Guidance))
+    WN(Wisdom & Narrative)
+    EC(Experiential Connection)
+
+    PG --> WN
+    PG --> EC
     WN --- EC
+
+    subgraph Guiding Triangle
+        direction TB
+        PG
+        WN
+        EC
+    end
+
+    style PG fill:#fff,stroke:#333,stroke-width:2px
+    style WN fill:#fff,stroke:#333,stroke-width:1px
+    style EC fill:#fff,stroke:#333,stroke-width:1px
+
 ```
 
 These three points are in constant dynamic relationship. Maintaining a healthy balance between Wisdom, Experience, and Principles is essential. When one aspect is overemphasized or confused for another (e.g., mistaking subjective experience for universal rule) or when they become out of equilibrium (e.g., an overemphasis on rules neglecting wisdom or experience), efforts must be made to restore harmony and balance.
