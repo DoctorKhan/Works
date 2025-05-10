@@ -132,6 +132,20 @@ The relationship between the nonprofit landlord (Resonance Land Trust) enforcing
 
 **Phased Evolution & Recognition:** The long-term aspiration to achieve some form of diplomatic recognition, as envisioned in the full Network State concept, should be viewed as a highly ambitious, distant goal. Achieving the necessary scale in terms of population, contiguous or networked territory, economic output, and internal governance sophistication would be a prerequisite. Initial efforts must focus squarely on building a functional, legally compliant, and sustainable network of ecovillages, demonstrating the model's viability on the ground. Pursuing formal recognition is speculative and secondary to the core mission of environmental health and sustainable community building.
 
+```mermaid
+graph TD
+    A[Microplastic Reduction Goal] --> B(Resonance Lands Trust Standards);
+    A --> C(Ecovillage Practices);
+    A --> D(Scientific Monitoring & Modeling);
+    A --> E(Strategic Trade Agreements);
+    B --> C;
+    B --> D;
+    C --> D;
+    C --> E;
+    D --> A;
+    E --> A;
+```
+
 ## **IV. Comprehensive Funding and Financial Sustainability Strategy**
 
 A robust and diversified funding strategy is critical for the project's initiation and long-term viability, moving beyond reliance on any single source.
@@ -317,7 +331,7 @@ Therefore, the confirmed systemic contamination, the strong link between MNPs in
 * Marfella, R., Prattichizzo, F., Sardu, C., Fulgenzi, G., Graciotti, L., Spadoni, T., D'Onofrio, N., Scisciola, L., La Grotta, R., Nasti, R., Sasso, F. C., Matacchione, G., Ambrosio, M., Coppola, C., Balestrieri, M. L., Grimaldi, V., De Feo, M., Pafundi, P. C., Mauro, C., … Paolisso, G. (2024). Microplastics and Nanoplastics in Atheromas and Cardiovascular Events. *The New England Journal of Medicine*, *390*(10), 900–910.  
 * Meeker, J. D., & Ferguson, K. K. (2014). Urinary Phthalate Metabolites are Associated with Decreased Serum Testosterone in Men, Women, and Children from NHANES 2011–2012. *The Journal of Clinical Endocrinology & Metabolism*, *99*(11), 4346–4352.  
 * Travison, T. G., Araujo, A. B., O'Donnell, A. B., Kupelian, V., & McKinlay, J. B. (2007). A Population-Level Decline in Serum Testosterone Levels in American Men. *The Journal of Clinical Endocrinology & Metabolism*, *92*(1), 196–202. 11  
-* Lertuchipon, R., Cai, L., Asdornwised, U., Carlsen, E., Dunkel, L., Dwyer, A. A., Eikermann, M., Esteves, S. C., Hotaling, J., Ishikawa, T., Kliesch, S., Lee, R., Levine, H., Liu, P. Y., Lo, K. C., Lori, A., Majzoub, A., Martinez, M. P., Massart, J., … Ramasamy, R. (2021). Decline in Serum Testosterone Levels Among Adolescent and Young Adult Men in the USA. *Andrology*, *9*(5), 1357-1366. 16  
+* Lertuchipon, R., Cai, L., Asdornwised, U., Carlsen, E., Dunkel, L., Dwyer, A. A., Esteves, S. C., Hotaling, J., Ishikawa, T., Kliesch, S., Lee, R., Levine, H., Liu, P. Y., Lo, K. C., Lori, A., Majzoub, A., Martinez, M. P., Massart, J., … Ramasamy, R. (2021). Decline in Serum Testosterone Levels Among Adolescent and Young Adult Men in the USA. *Andrology*, *9*(5), 1357-1366. 16  
 * Diamanti-Kandarakis, E., Bourguignon, J. P., Giudice, L. C., Hauser, R., Prins, G. S., Soto, A. M., Zoeller, R. T., & Gore, A. C. (2009). Endocrine-Disrupting Chemicals: An Endocrine Society Scientific Statement. *Endocrine Reviews*, *30*(4), 293–342. 1  
 * Gore, A. C., Chappell, V. A., Fenton, S. E., Flaws, J. A., Nadal, A., Prins, G. S., Toppari, J., & Zoeller, R. T. (2015). EDC-2: The Endocrine Society's Second Scientific Statement on Endocrine-Disrupting Chemicals. *Endocrine Reviews*, *36*(6), E1–E150. 17  
 * *Additional references based on other cited snippets would be included here.*
