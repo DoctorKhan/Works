@@ -133,4 +133,126 @@ To create a decentralized network state of retreat centers that fosters harmony 
   - Scale digital platform.
   - Grow to 1,000 members.
 - **Years 4-5 (2029-2030)**:
-  - Achieve semi-autonomous governance–
+  - Achieve semi-autonomous governance.
+
+## Alternative Pilot Plan
+
+**Launch a pilot retreat center in a rented Canggu villa to foster harmony with nature and self, testing the Sanctuary Network’s model before building an ecovillage in Palawan.**
+
+### Structure
+
+#### Physical Node
+- **Location**: 4-6 bedroom villa in Berawa, near Batu Bolong Beach.
+- **Features**:
+  - Yoga/meditation space (garden or living room).
+  - Eskrima training area (outdoor deck).
+  - Zero-waste kitchen for organic meals.
+  - Biochar water filter and bamboo amenities.
+- **Capacity**: 8-12 guests.
+
+#### Digital Layer
+- **Hyperledger Fabric**: Sanctuary Tokens for voting and bookings.
+- **Beta App**: Membership and retreat sign-ups (50 users).
+
+### Implementation
+
+#### Year 1: Pilot (2026)
+1. **Villa Selection**:
+   - Rent a 4-6 bedroom villa ($1,000-$3,000/month, $12,000-$36,000/year) via Airbnb or Bali Villa Finder, prioritizing eco-features (e.g., garden, solar).
+
+2. **Setup**:
+   - Convert space for yoga ($2,000: mats, sound system).
+   - Equip kitchen with organic supplies ($1,000, Bali Buda).
+   - Install biochar filter ($500) and ban plastics.
+
+3. **Programs**:
+   - **Wellness**: 3-day yoga/meditation retreats ($200, 8 guests, biweekly).
+   - **Adventure**: 3-day surf/Eskrima camps ($300, 6 guests, monthly) with local surf school and Filipino instructor ($500/month).
+   - **Science**: Monthly neuroscience (mindfulness, $30) and sustainability (microplastics, $50) talks.
+   - **Culture**: Weekly Balinese cooking ($20) and Kapwa dinners (free).
+
+4. **Digital**:
+   - Build blockchain prototype ($5,000).
+   - Launch app ($3,000) for 50 members.
+
+5. **Community**:
+   - Recruit 50 members via Canggu events and X.
+   - Form Balinese cultural council (3-5 locals).
+
+#### Years 2-3: Palawan Transition (2027-2028)
+- **Evaluate Pilot**: Assess revenue and feedback.
+- **Ecovillage Development**:
+  - Lease 2 hectares in Palawan ($5,000/year).
+  - Build ecovillage ($80,000).
+- **Scale Digital**: Expand blockchain/app and grow to 500 members.
+- **New Nodes**: Add Ubud or Boracay.
+
+### Governance
+- **Nonprofit**: Issues tokens and oversees operations.
+- **Voting**: Token-based decisions on programs and sustainability.
+- **Council**: Balinese locals ensure Tri Hita Karana integration.
+- **Standards**: Zero microplastics, organic food, clean water.
+
+### Funding
+
+#### Initial Funding
+- Crowdfund $50,000 (tokens).
+- Seek $20,000 in grants (e.g., Global Ecovillage Network).
+
+#### Revenue
+- Retreats: $20,000/year (100 guests).
+- Food Sales: $2,000.
+
+#### Budget Allocation
+- **50%**: Rent/setup ($20,000).
+- **30%**: Programs ($12,000).
+- **15%**: Digital ($6,000).
+- **5%**: Marketing ($2,000).
+
+### Challenges & Solutions
+
+1. **Space Limits**:
+   - **Challenge**: Limited space for permaculture and larger retreats.
+   - **Solution**: Partner with farms for permaculture activities and focus on small retreats.
+
+2. **Noise**:
+   - **Challenge**: Potential noise issues in the villa area.
+   - **Solution**: Choose a villa in Berawa with natural sound barriers and use soundproofing where necessary.
+
+3. **Eskrima Costs**:
+   - **Challenge**: High costs of hiring a full-time Eskrima instructor.
+   - **Solution**: Hire a part-time instructor and incorporate Balinese Pencak Silat as an alternative.
+
+4. **Regulations**:
+   - **Challenge**: Navigating permits and cryptocurrency regulations in Bali.
+   - **Solution**: Consult a Balinese lawyer for legal compliance and permits ($2,000).
+
+### Timeline
+
+- **2026**:
+  - **Q1**: Rent villa and complete setup.
+  - **Q2**: Launch digital platform.
+  - **Q3**: Crowdfund and recruit 50 members.
+  - **Q4**: Start retreats (10 events).
+
+- **2027-2028**:
+  - Evaluate pilot success.
+  - Build Palawan ecovillage.
+  - Scale to 500 members.
+
+### Next Steps
+
+1. **Villa Search**:
+   - Browse Airbnb or Bali Villa Finder for eco-friendly villas in Berawa ($1,000-$3,000/month).
+
+2. **Outreach**:
+   - Promote the initiative on X (formerly Twitter) to Canggu wellness groups (e.g., Udara Bali).
+
+3. **Digital Development**:
+   - Hire a blockchain developer to build the Hyperledger platform ($5,000).
+
+4. **Legal Compliance**:
+   - Engage a Balinese lawyer for permits and cryptocurrency regulations ($2,000).
+
+5. **Pilot Launch**:
+   - Organize a 3-day yoga/surf retreat in Q4 2026.
