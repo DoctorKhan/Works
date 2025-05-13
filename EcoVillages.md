@@ -1,8 +1,8 @@
-# Sanctuary Network Plan (v2)
+# Gaia Flow State
 
 ## 0. Moral Innovation – The One‑Sentence North Star
 
-**“Sanctuary harmonizes humans and habitat: a surf‑to‑soil wellness network that proves zero‑microplastic living is both profitable and spiritually compelling.”**
+**Gaia Flow: “Ecovillages that harmonize humans and habitat: a surf‑to‑soil wellness network that proves zero‑microplastic living is both profitable and spiritually compelling.”**
 *KPI:* Every node must deliver < **1 µg/L** microplastics in quarterly water tests.
 
 ---
