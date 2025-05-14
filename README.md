@@ -1,7 +1,6 @@
 This repository contains the ongoing work
 
 **Contents:**
-- `Avatar Journey.md`: A cross-cultural spiritual path.
-- `EcoVillages.md`: A plan for a Plastic-Free Ecovillage Network.
-- `Foundational Myths.md`: Lore and mythology
+- `EcoVillages.md`: A plan for an Ecovillage Network state.
+- `Rez-Khan-Operating-Manual.md`: Rez Khan Operating Manual
 - `README.md`: This file.
