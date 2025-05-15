@@ -1,8 +1,8 @@
-# Gaia Flow State
+# TerraFlow Network
 
 ## 0. Moral Innovation – The One‑Sentence North Star
 
-**Gaia Flow: “Ecovillages that harmonize humans and habitat: a surf‑to‑soil wellness network that proves zero‑microplastic living is both profitable and spiritually compelling.”**
+**TerraFlow: “Ecovillages that harmonize humans and habitat: a surf‑to‑soil wellness network that proves zero‑microplastic living is both profitable and spiritually compelling.”**
 *KPI:* Every node must deliver < **1 µg/L** microplastics in quarterly water tests.
 
 ---
@@ -19,7 +19,7 @@ Create a decentralized network state of retreat centers that fosters harmony wit
 
 * **Ecovillage Retreat Centers** in Hawaii, Costa Rica, Bali, and the Philippines feature:
 
-  * Meditation & psychedelic‑assisted therapy studios (where legal)
+  * Meditation centers
   * Surf beaches + Filipino martial‑arts / local art dojos
   * Organic farms & permaculture kitchens
   * Water systems with on‑chain microplastic oracles (biochar + RO)
@@ -107,7 +107,7 @@ Founder‑CEO (Rez Khan)
 
 | Risk                              | Mitigation                                                                        |
 | --------------------------------- | --------------------------------------------------------------------------------- |
-| Regulatory (psychedelics, crypto) | Only host psychedelics where legal; retain local counsel; tokens utility‑only.    |
+| Regulatory (crypto) | Retain local counsel; tokens utility‑only.    |
 | Founder focus perception          | Clear org chart + delegated OKRs + audited progress.                              |
 | Token volatility                  | Dual revenue engines (retreat fees + eco‑product sales) plus stablecoin treasury. |
 
