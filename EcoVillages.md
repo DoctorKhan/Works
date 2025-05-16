@@ -117,3 +117,4 @@ Founder‑CEO (Rez Khan)
 
 > “I’m Rez Khan—neuroscientist × blockchain security engineer turned wellness operator. Sanctuary proves that plastic‑negative living scales. We launch our first Bali villa this December, tokenize bookings on an OP roll‑up, and let members direct treasury toward the cleanest node via real‑time water oracles. Your \$100k helps us hit 1 k paying citizens before we break ground on Palawan.”
 
+YouTube channel: [https://www.youtube.com/@Dr.RezKhan](https://www.youtube.com/@Dr.RezKhan)
