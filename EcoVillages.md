@@ -5,6 +5,8 @@
 **Resonant Earth: “Ecovillages that harmonize humans and habitat: a surf‑to‑soil wellness network that proves zero‑microplastic living is both profitable and spiritually compelling.”**
 *KPI:* Every node must deliver < **1 µg/L** microplastics in quarterly water tests.
 
+![Flowing River and Lush Forest](https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920)  
+
 ---
 
 ## 1. Mission
