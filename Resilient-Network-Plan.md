@@ -1,20 +1,20 @@
-**TerraFlow Network: Blueprint for Resilience & Global Expansion**
+**Resonant Earth Network: Blueprint for Resilience & Global Expansion**
 
 **Date:** May 15, 2025
 **Version:** 1.0 (Living Document)
 
 **Preamble: Forging a Resilient Future**
 
-The TerraFlow Network is conceived not merely as a collection of retreats or a digital platform, but as an emergent, decentralized network state dedicated to harmonizing human existence with ecological well-being. Our North Star guides us: **“Ecovillages that harmonize humans and habitat: a surf-to-soil wellness network that proves zero-microplastic living is both profitable and spiritually compelling.”**
+The Resonant Earth Network is conceived not merely as a collection of retreats or a digital platform, but as an emergent, decentralized network state dedicated to harmonizing human existence with ecological well-being. Our North Star guides us: **“Ecovillages that harmonize humans and habitat: a surf-to-soil wellness network that proves zero-microplastic living is both profitable and spiritually compelling.”**
 
-This document outlines the strategic framework for ensuring TerraFlow's long-term viability, adaptive resilience, and purposeful global expansion. We operate within a global context marked by accelerating technological advancement (particularly AI), potential economic volatility, escalating climate impacts, and geopolitical shifts. Our approach is not just to withstand these dynamics, but to learn, adapt, and strengthen through them, embodying anti-fragility. Resilience, for TerraFlow, is the capacity to maintain our core mission and values while dynamically evolving to thrive and expand our positive impact.
+This document outlines the strategic framework for ensuring Resonant Earth's long-term viability, adaptive resilience, and purposeful global expansion. We operate within a global context marked by accelerating technological advancement (particularly AI), potential economic volatility, escalating climate impacts, and geopolitical shifts. Our approach is not just to withstand these dynamics, but to learn, adapt, and strengthen through them, embodying anti-fragility. Resilience, for Resonant Earth, is the capacity to maintain our core mission and values while dynamically evolving to thrive and expand our positive impact.
 
 **Section 1: Foundational Principles of Resilience & Expansion**
 
-TerraFlow’s resilience and expansion are built upon interconnected principles:
+Resonant Earth’s resilience and expansion are built upon interconnected principles:
 
 1.1.  **Radical Decentralization:**
-    * **Governance:** Decision-making power distributed through the TerraFlow DAO (built on OP-Stack L2), empowering token holders and node representatives.
+    * **Governance:** Decision-making power distributed through the Resonant Earth DAO (built on OP-Stack L2), empowering token holders and node representatives.
     * **Infrastructure:** Physical nodes geographically dispersed; digital infrastructure utilizing decentralized technologies (IPFS, L2, Chainlink).
     * **Resources:** Diversified treasury, localized resource management at nodes, encouragement of inter-node support.
     * **Knowledge:** Open-source knowledge hub (GitBook + Ceramic) for best practices, accessible to all members.
@@ -28,20 +28,20 @@ TerraFlow’s resilience and expansion are built upon interconnected principles:
     * **Digital Systems:** Redundant systems for critical functions (e.g., multiple oracle data providers where feasible, distributed data storage).
 
 1.4.  **Adaptive Governance & Evolution:**
-    * The TerraFlow DAO is designed for evolution. Regular review of governance parameters, proposal mechanisms for system upgrades, and the ability to rapidly deploy emergency protocols (with DAO oversight) in response to acute crises.
+    * The Resonant Earth DAO is designed for evolution. Regular review of governance parameters, proposal mechanisms for system upgrades, and the ability to rapidly deploy emergency protocols (with DAO oversight) in response to acute crises.
     * The Global Culture Council plays a vital role in ensuring value alignment during adaptation.
 
 1.5.  **Community as the Core:**
-    * An engaged, informed, and values-aligned global community is TerraFlow’s primary defense and engine for growth. Members are empowered to identify risks, propose solutions, contribute skills, and uphold network integrity.
+    * An engaged, informed, and values-aligned global community is Resonant Earth’s primary defense and engine for growth. Members are empowered to identify risks, propose solutions, contribute skills, and uphold network integrity.
     * Fostering a strong sense of belonging, shared purpose, and mutual support.
 
 1.6.  **Purpose-Driven Expansion:**
-    * Growth is guided by the ability to uphold the North Star and KPIs (especially <1 µg/L microplastics). Expansion focuses on areas where TerraFlow can have a meaningful impact and find aligned local communities.
+    * Growth is guided by the ability to uphold the North Star and KPIs (especially <1 µg/L microplastics). Expansion focuses on areas where Resonant Earth can have a meaningful impact and find aligned local communities.
     * Quality and integrity of nodes over sheer quantity.
 
 **Section 2: Operational Resilience – Physical Ecovillage Nodes**
 
-Each TerraFlow node is a microcosm of resilience, designed for maximum self-reliance and minimal negative ecological impact.
+Each Resonant Earth node is a microcosm of resilience, designed for maximum self-reliance and minimal negative ecological impact.
 
 2.1.  **Strategic Site Selection & Geopolitical Diversification:**
     * **Criteria:** Climate resilience (low risk from sea-level rise, extreme weather), water availability, arable land, local community receptiveness, geopolitical stability (assessed with local expertise), potential for sustainable resource generation, and alignment with surf/wellness culture.
@@ -77,11 +77,11 @@ Each TerraFlow node is a microcosm of resilience, designed for maximum self-reli
     * Community-based, de-escalation-focused safety protocols.
     * Strong relationships with surrounding local communities as a primary security measure.
     * Physical security measures appropriate to local context, minimizing aggressive postures.
-    * Cybersecurity for local IT systems interfacing with the global TerraFlow network.
+    * Cybersecurity for local IT systems interfacing with the global Resonant Earth network.
 
 **Section 3: Digital Network Resilience & Security**
 
-The digital layer underpins TerraFlow’s global coordination, governance, and transparency.
+The digital layer underpins Resonant Earth’s global coordination, governance, and transparency.
 
 3.1.  **Robust Blockchain Infrastructure:**
     * **OP-Stack L2 Roll-up:** Leverages the security of the underlying L1 (Ethereum), providing scalability and lower transaction costs for governance, bookings, and token interactions.
@@ -115,7 +115,7 @@ The digital layer underpins TerraFlow’s global coordination, governance, and t
 
 **Section 4: Adaptive Governance & Community Cohesion**
 
-TerraFlow’s governance model and community fabric are central to its ability to adapt and thrive.
+Resonant Earth’s governance model and community fabric are central to its ability to adapt and thrive.
 
 4.1.  **Evolving DAO Framework:**
     * **Clear Processes:** Transparent mechanisms for proposals, debate, voting (token-weighted and potentially reputation-based elements).
@@ -131,12 +131,12 @@ TerraFlow’s governance model and community fabric are central to its ability t
 
 4.3.  **Resilient Economic Model:**
     * **Diversified Node Revenue:** Encouraging nodes to develop multiple income streams beyond core retreat offerings (e.g., local workshops, value-added agricultural products, online educational content).
-    * **Inter-Node Economy:** Facilitating trade and service exchange between nodes using the TerraFlow token or other agreed-upon mediums.
+    * **Inter-Node Economy:** Facilitating trade and service exchange between nodes using the Resonant Earth token or other agreed-upon mediums.
     * **Network Mutual Support Fund:** A portion of network revenue allocated to a fund for supporting nodes facing temporary, unforeseen hardships (governed by the DAO).
 
 4.4.  **Crisis Communication & Cohesion Strategy:**
     * **Multi-Tiered Comms:** Secure and redundant channels for node-to-node, DAO-to-node, and DAO-to-member communications (e.g., encrypted chat, decentralized messaging, emergency satellite broadcasts).
-    * **Shared Narrative:** Reinforcing TerraFlow’s vision and values during crises to maintain morale and collective focus.
+    * **Shared Narrative:** Reinforcing Resonant Earth’s vision and values during crises to maintain morale and collective focus.
     * **Conflict Transformation:** Proactive training in Nonviolent Communication (NVC) and restorative justice practices to build social cohesion and manage internal conflicts constructively.
 
 **Section 5: Framework for Strategic & Resilient Expansion**
@@ -144,10 +144,10 @@ TerraFlow’s governance model and community fabric are central to its ability t
 Expansion is approached as a strategic imperative for diversification and impact, balanced with the need to maintain network integrity and resilience.
 
 5.1.  **Principled New Node Onboarding:**
-    * **Alignment & Commitment:** Demonstrated commitment to TerraFlow’s North Star, zero-microplastic KPI, and core values.
+    * **Alignment & Commitment:** Demonstrated commitment to Resonant Earth’s North Star, zero-microplastic KPI, and core values.
     * **Local Leadership:** Strong, passionate, and capable local founding team with community ties.
     * **Resilience Plan:** Submission of a node-specific resilience plan addressing resource sovereignty, local risks, and community integration.
-    * **DAO Approval:** Formal proposal and DAO vote required for official TerraFlow node status and access to network resources/branding.
+    * **DAO Approval:** Formal proposal and DAO vote required for official Resonant Earth node status and access to network resources/branding.
 
 5.2.  **Phased & Supported Expansion (Iterating on Initial Roadmap):**
     * **Phase 0 - Digital Community Nucleation (Current - Ongoing):** Global online community growth, content dissemination (livestreaming, software as content), waitlist building, test-net operations.
@@ -157,14 +157,14 @@ Expansion is approached as a strategic imperative for diversification and impact
     * **Phase 4 - Mature Network & Semi-Autonomous Governance (2030+):** Aim for 10+ active, resilient nodes. Focus on strengthening inter-node collaboration, sophisticated DAO governance, and global impact. Yearly Sanctuary Summit for network-wide strategic alignment.
 
 5.3.  **Resource Mobilization for Growth:**
-    * **TerraFlow Growth Fund:** DAO-managed fund, capitalized by a portion of network revenues, grants, and future token offerings, dedicated to supporting new node development and network infrastructure.
-    * **Open-Source Playbooks:** Detailed guides, templates, and software tools for establishing and operating TerraFlow nodes.
+    * **Resonant Earth Growth Fund:** DAO-managed fund, capitalized by a portion of network revenues, grants, and future token offerings, dedicated to supporting new node development and network infrastructure.
+    * **Open-Source Playbooks:** Detailed guides, templates, and software tools for establishing and operating Resonant Earth nodes.
 
 5.4.  **Global Ambassador & Scouting Program:**
     * Empowering trusted community members to identify promising locations, potential founding teams, and strategic partnerships globally.
 
 5.5.  **Cultural Integration & Regulatory Navigation:**
-    * A framework developed by the Global Culture Council and legal advisors for respectfully integrating local customs, traditions, and languages while adhering to core TerraFlow principles.
+    * A framework developed by the Global Culture Council and legal advisors for respectfully integrating local customs, traditions, and languages while adhering to core Resonant Earth principles.
     * Proactive engagement with local legal counsel in each new jurisdiction to ensure compliance.
 
 **Section 6: Proactive Scenario Planning & Future-Proofing**
@@ -182,7 +182,7 @@ Anticipating and preparing for future challenges is key to long-term resilience.
     * **Sustainable Tech:** Continuous improvement of water purification, food production, renewable energy, and waste valorization technologies.
     * **Decentralized Systems:** Exploring next-generation DAO tools, decentralized identity solutions, resilient communication protocols, and AI-assisted governance mechanisms.
     * **AI for Good:** Ethical development and integration of AI for personalized wellness, regenerative agriculture optimization, climate modeling for node resilience, and enhancing community learning.
-    * **Human Flourishing:** Research and implementation of practices supporting radical life extension, cognitive enhancement, and collective intelligence within the TerraFlow community, aligned with ethical principles.
+    * **Human Flourishing:** Research and implementation of practices supporting radical life extension, cognitive enhancement, and collective intelligence within the Resonant Earth community, aligned with ethical principles.
 
 **Section 7: Measuring Resilience & Expansion Success**
 
@@ -196,12 +196,12 @@ Progress will be tracked through a holistic set of Key Performance Indicators (K
     * **Community Well-being Index:** Regular surveys measuring member satisfaction, sense of belonging, and mental health.
     * **Treasury Health:** Diversification ratio, stability, and growth of DAO-managed funds.
 7.2.  **Expansion KPIs:**
-    * Number of active, KPI-compliant TerraFlow nodes.
-    * Number of engaged TerraFlow citizens/members globally.
+    * Number of active, KPI-compliant Resonant Earth nodes.
+    * Number of engaged Resonant Earth citizens/members globally.
     * Geographic and bioregional diversity of nodes.
     * Successful onboarding and ramp-up time for new nodes.
     * Quantifiable positive ecological impact (e.g., hectares under regeneration, carbon sequestration, biodiversity increase).
 
 **Conclusion: A Living Commitment to a Thriving Future**
 
-The TerraFlow Network is more than a plan; it is a commitment to co-creating a resilient, regenerative, and spiritually compelling future. This document provides a strategic framework, but its true strength will come from the collective intelligence, passion, and dedication of the TerraFlow community. It is designed to be a living blueprint, adaptable and responsive, continuously refined as we learn, grow, and navigate the complexities of our evolving world together. The journey ahead requires courage, innovation, and an unwavering belief in our capacity to harmonize human existence with the vibrant life of our planet.
+The Resonant Earth Network is more than a plan; it is a commitment to co-creating a resilient, regenerative, and spiritually compelling future. This document provides a strategic framework, but its true strength will come from the collective intelligence, passion, and dedication of the Resonant Earth community. It is designed to be a living blueprint, adaptable and responsive, continuously refined as we learn, grow, and navigate the complexities of our evolving world together. The journey ahead requires courage, innovation, and an unwavering belief in our capacity to harmonize human existence with the vibrant life of our planet.

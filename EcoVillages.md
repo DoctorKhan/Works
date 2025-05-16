@@ -1,8 +1,8 @@
-# TerraFlow Network
+# Resonant Earth Network
 
 ## 0. Moral Innovation – The One‑Sentence North Star
 
-**TerraFlow: “Ecovillages that harmonize humans and habitat: a surf‑to‑soil wellness network that proves zero‑microplastic living is both profitable and spiritually compelling.”**
+**Resonant Earth: “Ecovillages that harmonize humans and habitat: a surf‑to‑soil wellness network that proves zero‑microplastic living is both profitable and spiritually compelling.”**
 *KPI:* Every node must deliver < **1 µg/L** microplastics in quarterly water tests.
 
 ---
