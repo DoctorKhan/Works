@@ -11,7 +11,7 @@
             font-family: 'Inter', sans-serif;
         }
         .hero-bg {
-            background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920'); /* Unsplash - Lush Ecovillage Concept */
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920'); /* Unsplash - Surfing at Sunset */
             background-size: cover;
             background-position: center;
         }
@@ -20,14 +20,14 @@
         }
         .cta-button:hover {
             transform: translateY(-2px);
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
         .feature-card {
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
         .feature-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
         }
         /* Custom gradient for text */
         .text-gradient {
@@ -45,10 +45,15 @@
             bottom: -8px;
             left: 50%;
             transform: translateX(-50%);
-            width: 60px;
+            width: 80px;
             height: 4px;
             background-color: #10B981; /* Tailwind green-500 */
             border-radius: 2px;
+        }
+        .gradient-border {
+            border: 2px solid;
+            border-image-slice: 1;
+            border-image-source: linear-gradient(to right, #10B981, #059669);
         }
     </style>
 </head>
@@ -90,7 +95,7 @@
             </div>
             <div class="grid md:grid-cols-2 gap-8 items-center">
                 <div>
-                    <img src="https://placehold.co/600x400/A7F3D0/1F2937?text=AI+Disruption+Concept" alt="AI and Society" class="rounded-lg shadow-xl mb-4 md:mb-0" onerror="this.src='https://placehold.co/600x400/cccccc/1F2937?text=Image+Not+Available'">
+                    <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600" alt="Nature and Harmony" class="rounded-lg shadow-xl mb-4 md:mb-0 gradient-border" onerror="this.src='https://placehold.co/600x400/cccccc/1F2937?text=Image+Not+Available'">
                 </div>
                 <div>
                     <h3 class="text-2xl font-semibold mb-3 text-green-700">Embracing Change, Building Resilience</h3>
@@ -128,7 +133,7 @@
                     <p class="text-gray-600 text-sm leading-relaxed">Empowering individuals and local nodes through Web3 governance, transparent data, and community-owned infrastructure. Building a true network state.</p>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-lg feature-card">
-                    <img src="https://placehold.co/80x80/F472B6/FFFFFF?text=Wellness" alt="Wellness Icon" class="h-16 w-16 mb-4 mx-auto" onerror="this.src='https://placehold.co/80x80/cccccc/1F2937?text=Icon'">
+                    <img src="https://images.unsplash.com/photo-1519222970733-f546218fa6d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=80" alt="Surfing Icon" class="h-16 w-16 mb-4 mx-auto" onerror="this.src='https://placehold.co/80x80/cccccc/1F2937?text=Icon'">
                     <h4 class="text-xl font-semibold mb-2 text-center text-green-700">Surf-to-Soil Wellness</h4>
                     <p class="text-gray-600 text-sm leading-relaxed">Integrating physical vitality (surfing, martial arts), mindful practices, and nourishing, locally-grown food for holistic well-being.</p>
                 </div>
@@ -215,7 +220,7 @@
 
     <section id="community" class="py-16 md:py-24 bg-gray-100">
         <div class="container mx-auto px-6 text-center">
-            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600" alt="Community Flow" class="rounded-lg shadow-xl mb-8 mx-auto" onerror="this.src='https://placehold.co/600x300/cccccc/1F2937?text=Image+Not+Available'">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600" alt="Community in Nature" class="rounded-lg shadow-xl mb-8 mx-auto" onerror="this.src='https://placehold.co/600x300/cccccc/1F2937?text=Image+Not+Available'">
             <h2 class="text-3xl md:text-4xl font-bold mb-4 section-title-underline">Be Part of the Resonant Earth Movement</h2>
             <p class="text-gray-600 max-w-xl mx-auto mb-8 text-lg">
                 Whether you're an innovator, investor, wellness enthusiast, or simply believe in a better future, there's a place for you in Resonant Earth.
