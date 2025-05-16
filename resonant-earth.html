@@ -9,25 +9,39 @@
     <style>
         body {
             font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #374151;
         }
         .hero-bg {
-            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920'); /* Unsplash - Surfing at Sunset */
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920'); /* Unsplash - Surfing at Sunset */
             background-size: cover;
             background-position: center;
+            background-attachment: fixed;
         }
         .cta-button {
-            transition: all 0.3s ease;
+            transition: all 0.4s ease;
+            letter-spacing: 0.025em;
+            padding: 0.75rem 2rem;
         }
         .cta-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
         }
         .feature-card {
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            transition: all 0.4s ease;
+            border-radius: 0.75rem;
+            overflow: hidden;
+        }
+        .balanced-image {
+            max-width: 500px;
+            width: 100%;
+            margin: 0 auto;
+            height: auto;
+            object-fit: cover;
         }
         .feature-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+            transform: translateY(-8px);
+            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.18);
         }
         /* Custom gradient for text */
         .text-gradient {
@@ -94,8 +108,8 @@
                 </p>
             </div>
             <div class="grid md:grid-cols-2 gap-8 items-center">
-                <div>
-                    <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600" alt="Nature and Harmony" class="rounded-lg shadow-xl mb-4 md:mb-0 gradient-border" onerror="this.src='https://placehold.co/600x400/cccccc/1F2937?text=Image+Not+Available'">
+                <div class="flex justify-center">
+                    <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600" alt="Nature and Harmony" class="rounded-lg shadow-xl mb-4 md:mb-0 gradient-border balanced-image" onerror="this.src='https://placehold.co/600x400/cccccc/1F2937?text=Image+Not+Available'">
                 </div>
                 <div>
                     <h3 class="text-2xl font-semibold mb-3 text-green-700">Embracing Change, Building Resilience</h3>
@@ -176,7 +190,6 @@
             <div class="max-w-4xl mx-auto">
                 <div class="relative">
                     <div class="hidden md:block absolute top-0 bottom-0 left-1/2 w-0.5 bg-green-300"></div>
-
                     <div class="md:flex md:items-center md:mb-12">
                         <div class="md:w-1/2 md:pr-8 text-center md:text-right mb-4 md:mb-0">
                             <div class="p-4 bg-green-500 text-white rounded-full inline-block shadow-md">
@@ -187,7 +200,6 @@
                         </div>
                         <div class="md:w-1/2 md:pl-8"></div>
                     </div>
-
                     <div class="md:flex md:items-center md:flex-row-reverse md:mb-12">
                         <div class="md:w-1/2 md:pl-8 text-center md:text-left mb-4 md:mb-0">
                              <div class="p-4 bg-green-500 text-white rounded-full inline-block shadow-md">
@@ -196,10 +208,9 @@
                             <h4 class="text-xl font-semibold mt-2 text-green-700">Phase 1: Bali Villa Pilot (Dec 2025 - Jun 2026)</h4>
                             <p class="text-gray-600 text-sm">Launching our first physical node, running retreats, main-net token & booking dApp.</p>
                         </div>
-                         <div class="md:w-1/2 md:pr-8"></div>
+                        <div class="md:w-1/2 md:pr-8"></div>
                     </div>
-
-                     <div class="md:flex md:items-center">
+                    <div class="md:flex md:items-center">
                         <div class="md:w-1/2 md:pr-8 text-center md:text-right mb-4 md:mb-0">
                             <div class="p-4 bg-green-500 text-white rounded-full inline-block shadow-md">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
@@ -210,13 +221,12 @@
                         <div class="md:w-1/2 md:pl-8"></div>
                     </div>
                 </div>
-                 <p class="text-center mt-12 text-gray-700 text-lg">
+                <p class="text-center mt-12 text-gray-700 text-lg">
                     This is just the beginning. We envision a global network of interconnected, thriving communities.
                 </p>
             </div>
         </div>
     </section>
-
 
     <section id="community" class="py-16 md:py-24 bg-gray-100">
         <div class="container mx-auto px-6 text-center">
@@ -233,7 +243,7 @@
                     Join our Discord
                 </a>
             </div>
-             <p class="mt-8 text-sm text-gray-500">
+            <p class="mt-8 text-sm text-gray-500">
                 Current Waitlist: <span class="font-bold">1,250+</span> | Active Contributors: <span class="font-bold">140+</span>
             </p>
         </div>
@@ -241,12 +251,15 @@
 
     <footer class="bg-gray-800 text-gray-300 py-12">
         <div class="container mx-auto px-6 text-center">
-            <p class="text-xl font-semibold mb-2 text-gradient">Resonant Earth Network</p>
+            <div class="flex justify-center items-center mb-4">
+                <img src="/favicon.ico" alt="Resonant Earth Icon" class="h-10 w-10 mr-3">
+                <p class="text-xl font-semibold text-gradient">Resonant Earth Network</p>
+            </div>
             <p class="mb-4 text-sm">Pioneering a resilient and regenerative future, together.</p>
             <div class="mb-4">
                 <a href="#" class="text-gray-400 hover:text-white px-2">Privacy Policy</a>
                 <a href="#" class="text-gray-400 hover:text-white px-2">Terms of Service</a>
-                <a href="mailto:contact@resonant earth.network" class="text-gray-400 hover:text-white px-2">Contact Us</a>
+                <a href="mailto:contact@resonantearth.network" class="text-gray-400 hover:text-white px-2">Contact Us</a>
             </div>
             <p class="text-xs">&copy; 2025 Resonant Earth Network. All rights reserved. Building the future, responsibly.</p>
         </div>
