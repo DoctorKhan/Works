@@ -69,13 +69,20 @@
             border-image-slice: 1;
             border-image-source: linear-gradient(to right, #10B981, #059669);
         }
+        .logo-image {
+            height: 40px;
+            width: auto;
+        }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800 antialiased">
 
     <nav class="bg-white shadow-md fixed w-full z-50 top-0">
         <div class="container mx-auto px-6 py-3 flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold text-gradient">Resonant Earth</a>
+            <a href="#" class="text-2xl font-bold flex items-center">
+                <img src="rn-logo.png" alt="Resonant Earth Logo" class="logo-image mr-2">
+                <span class="text-gradient">Resonant Earth</span>
+            </a>
             <div>
                 <a href="#vision" class="text-gray-600 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium">Our Vision</a>
                 <a href="#features" class="text-gray-600 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium">Features</a>
@@ -252,7 +259,7 @@
     <footer class="bg-gray-800 text-gray-300 py-12">
         <div class="container mx-auto px-6 text-center">
             <div class="flex justify-center items-center mb-4">
-                <img src="/favicon.ico" alt="Resonant Earth Icon" class="h-10 w-10 mr-3">
+                <img src="rn-logo.png" alt="Resonant Earth Icon" class="h-12 w-auto mr-3">
                 <p class="text-xl font-semibold text-gradient">Resonant Earth Network</p>
             </div>
             <p class="mb-4 text-sm">Pioneering a restorative and resilient future, together.</p>
