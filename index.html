@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resonant Earth Network | Harmonizing Humans & Habitat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-bg {
+            background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920'); /* Unsplash - Lush Ecovillage Concept */
+            background-size: cover;
+            background-position: center;
+        }
+        .cta-button {
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .feature-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+        }
+        /* Custom gradient for text */
+        .text-gradient {
+            background: linear-gradient(to right, #10B981, #059669);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .section-title-underline {
+            display: inline-block;
+            position: relative;
+        }
+        .section-title-underline::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 4px;
+            background-color: #10B981; /* Tailwind green-500 */
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+    <nav class="bg-white shadow-md fixed w-full z-50 top-0">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-gradient">Resonant Earth</a>
+            <div>
+                <a href="#vision" class="text-gray-600 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium">Our Vision</a>
+                <a href="#features" class="text-gray-600 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium">Features</a>
+                <a href="#community" class="text-gray-600 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium">Community</a>
+                <a href="#join" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full text-sm font-medium cta-button ml-2">Join Waitlist</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-bg text-white pt-32 pb-20 md:pt-48 md:pb-32">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4 leading-tight">
+                Resonant Earth: Building a Regenerative Future, Together.
+            </h1>
+            <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto">
+                A decentralized network of ecovillages harmonizing humans and habitat. Discover zero-microplastic living, Web3 community, and surf-to-soil wellness.
+            </p>
+            <a href="#join" class="bg-white text-green-600 hover:bg-gray-100 font-bold py-3 px-8 rounded-full text-lg cta-button shadow-lg">
+                Explore Our Vision
+            </a>
+        </div>
+    </header>
+
+    <section class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 section-title-underline">The Shift is Here. Are We Ready?</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto text-lg">
+                    Accelerating AI, environmental pressures, and outdated systems call for new ways of living, working, and connecting. Resonant Earth is our response.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <img src="https://placehold.co/600x400/A7F3D0/1F2937?text=AI+Disruption+Concept" alt="AI and Society" class="rounded-lg shadow-xl mb-4 md:mb-0" onerror="this.src='https://placehold.co/600x400/cccccc/1F2937?text=Image+Not+Available'">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold mb-3 text-green-700">Embracing Change, Building Resilience</h3>
+                    <p class="text-gray-700 mb-4 leading-relaxed">
+                        The old models are strained. We see an unprecedented opportunity to leverage technology like Web3 and AI not to escape reality, but to build a more grounded, sustainable, and fulfilling one. It's time for communities that are:
+                    </p>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Ecologically regenerative and verifiably clean.</li>
+                        <li>Economically resilient and community-owned.</li>
+                        <li>Socially connected and culturally rich.</li>
+                        <li>Technologically empowered and human-centered.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="vision" class="py-16 md:py-24">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 section-title-underline">Our Vision: A Thriving Network State</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto text-lg">
+                    Resonant Earth is more than just ecovillages; it's a blueprint for a decentralized, regenerative civilization.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg feature-card">
+                    <img src="https://placehold.co/80x80/34D399/FFFFFF?text=Eco" alt="Ecology Icon" class="h-16 w-16 mb-4 mx-auto" onerror="this.src='https://placehold.co/80x80/cccccc/1F2937?text=Icon'">
+                    <h4 class="text-xl font-semibold mb-2 text-center text-green-700">Harmonize with Habitat</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Creating symbiotic relationships between human communities and their ecosystems, with a core commitment to zero-microplastic living, verified on-chain.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg feature-card">
+                    <img src="https://placehold.co/80x80/60A5FA/FFFFFF?text=Web3" alt="Web3 Icon" class="h-16 w-16 mb-4 mx-auto" onerror="this.src='https://placehold.co/80x80/cccccc/1F2937?text=Icon'">
+                    <h4 class="text-xl font-semibold mb-2 text-center text-green-700">Decentralized Sovereignty</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Empowering individuals and local nodes through Web3 governance, transparent data, and community-owned infrastructure. Building a true network state.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg feature-card">
+                    <img src="https://placehold.co/80x80/F472B6/FFFFFF?text=Wellness" alt="Wellness Icon" class="h-16 w-16 mb-4 mx-auto" onerror="this.src='https://placehold.co/80x80/cccccc/1F2937?text=Icon'">
+                    <h4 class="text-xl font-semibold mb-2 text-center text-green-700">Surf-to-Soil Wellness</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Integrating physical vitality (surfing, martial arts), mindful practices, and nourishing, locally-grown food for holistic well-being.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-16 md:py-24 bg-green-700 text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 section-title-underline" style="color:white; --tw-text-opacity: 1;">Key Features of Resonant Earth</h2>
+                <style scoped> .section-title-underline::after { background-color: white !important; } </style> <p class="max-w-2xl mx-auto text-lg text-green-100">What makes Resonant Earth unique and resilient.</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white/10 backdrop-blur-md p-6 rounded-lg shadow-lg feature-card border border-white/20">
+                    <h4 class="text-xl font-semibold mb-2">Zero Microplastic KPI</h4>
+                    <p class="text-sm text-green-50 leading-relaxed">Verifiable <1 µg/L microplastics in water, reported on-chain via Chainlink oracles. Radical transparency.</p>
+                </div>
+                <div class="bg-white/10 backdrop-blur-md p-6 rounded-lg shadow-lg feature-card border border-white/20">
+                    <h4 class="text-xl font-semibold mb-2">Web3 Native Governance</h4>
+                    <p class="text-sm text-green-50 leading-relaxed">OP-Stack L2 for tokenized bookings, community voting, and decentralized treasury management.</p>
+                </div>
+                <div class="bg-white/10 backdrop-blur-md p-6 rounded-lg shadow-lg feature-card border border-white/20">
+                    <h4 class="text-xl font-semibold mb-2">Regenerative Nodes</h4>
+                    <p class="text-sm text-green-50 leading-relaxed">Ecovillages with organic farms, permaculture, renewable energy, and low-tox bamboo/adobe infrastructure.</p>
+                </div>
+                <div class="bg-white/10 backdrop-blur-md p-6 rounded-lg shadow-lg feature-card border border-white/20">
+                    <h4 class="text-xl font-semibold mb-2">Global Community</h4>
+                    <p class="text-sm text-green-50 leading-relaxed">A growing network of contributors, future residents, and partners dedicated to building a better future.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 md:py-24">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 section-title-underline">Our Journey & How You Can Participate</h2>
+            </div>
+            <div class="max-w-4xl mx-auto">
+                <div class="relative">
+                    <div class="hidden md:block absolute top-0 bottom-0 left-1/2 w-0.5 bg-green-300"></div>
+
+                    <div class="md:flex md:items-center md:mb-12">
+                        <div class="md:w-1/2 md:pr-8 text-center md:text-right mb-4 md:mb-0">
+                            <div class="p-4 bg-green-500 text-white rounded-full inline-block shadow-md">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                            </div>
+                            <h4 class="text-xl font-semibold mt-2 text-green-700">Phase 0: Community (Now - Oct 2025)</h4>
+                            <p class="text-gray-600 text-sm">Growing our digital community, launching test-net, publishing oracle specs.</p>
+                        </div>
+                        <div class="md:w-1/2 md:pl-8"></div>
+                    </div>
+
+                    <div class="md:flex md:items-center md:flex-row-reverse md:mb-12">
+                        <div class="md:w-1/2 md:pl-8 text-center md:text-left mb-4 md:mb-0">
+                             <div class="p-4 bg-green-500 text-white rounded-full inline-block shadow-md">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
+                            </div>
+                            <h4 class="text-xl font-semibold mt-2 text-green-700">Phase 1: Bali Villa Pilot (Dec 2025 - Jun 2026)</h4>
+                            <p class="text-gray-600 text-sm">Launching our first physical node, running retreats, main-net token & booking dApp.</p>
+                        </div>
+                         <div class="md:w-1/2 md:pr-8"></div>
+                    </div>
+
+                     <div class="md:flex md:items-center">
+                        <div class="md:w-1/2 md:pr-8 text-center md:text-right mb-4 md:mb-0">
+                            <div class="p-4 bg-green-500 text-white rounded-full inline-block shadow-md">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                            </div>
+                            <h4 class="text-xl font-semibold mt-2 text-green-700">Phase 2: Palawan Ecovillage (Jul 2026 - Dec 2027)</h4>
+                            <p class="text-gray-600 text-sm">Building our flagship 20-bed ecovillage, first on-chain water KPI report.</p>
+                        </div>
+                        <div class="md:w-1/2 md:pl-8"></div>
+                    </div>
+                </div>
+                 <p class="text-center mt-12 text-gray-700 text-lg">
+                    This is just the beginning. We envision a global network of interconnected, thriving communities.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="community" class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-6 text-center">
+            <img src="https://placehold.co/600x300/10B981/FFFFFF?text=Diverse+Community+Collage" alt="Community" class="rounded-lg shadow-xl mb-8 mx-auto" onerror="this.src='https://placehold.co/600x300/cccccc/1F2937?text=Image+Not+Available'">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 section-title-underline">Be Part of the Resonant Earth Movement</h2>
+            <p class="text-gray-600 max-w-xl mx-auto mb-8 text-lg">
+                Whether you're an innovator, investor, wellness enthusiast, or simply believe in a better future, there's a place for you in Resonant Earth.
+            </p>
+            <div id="join">
+                <a href="YOUR_WAITLIST_LINK_HERE" target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-10 rounded-full text-lg cta-button shadow-lg inline-block mb-4 md:mb-0 md:mr-4">
+                    Join the Waitlist
+                </a>
+                <a href="YOUR_DISCORD_LINK_HERE" target="_blank" class="bg-gray-700 hover:bg-gray-800 text-white font-bold py-4 px-10 rounded-full text-lg cta-button shadow-lg inline-block">
+                    Join our Discord
+                </a>
+            </div>
+             <p class="mt-8 text-sm text-gray-500">
+                Current Waitlist: <span class="font-bold">1,250+</span> | Active Contributors: <span class="font-bold">140+</span>
+            </p>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-gray-300 py-12">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-xl font-semibold mb-2 text-gradient">Resonant Earth Network</p>
+            <p class="mb-4 text-sm">Pioneering a resilient and regenerative future, together.</p>
+            <div class="mb-4">
+                <a href="#" class="text-gray-400 hover:text-white px-2">Privacy Policy</a>
+                <a href="#" class="text-gray-400 hover:text-white px-2">Terms of Service</a>
+                <a href="mailto:contact@resonant earth.network" class="text-gray-400 hover:text-white px-2">Contact Us</a>
+            </div>
+            <p class="text-xs">&copy; 2025 Resonant Earth Network. All rights reserved. Building the future, responsibly.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
