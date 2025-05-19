@@ -12,7 +12,7 @@
             max-width: 900px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f7fafc;
+            background-color: #f0f2f5; /* Slightly darker background */
         }
         
         h1 {
@@ -35,7 +35,7 @@
             transform: translateX(-50%);
             width: 100px;
             height: 4px;
-            background: linear-gradient(to right, #2ecc71, #3498db);
+            background: linear-gradient(to right, #2ecc71, #3498db); /* Keep vibrant accent */
             border-radius: 2px;
         }
         
@@ -52,22 +52,22 @@
             display: block;
             margin: 20px 0;
             padding: 24px;
-            background: linear-gradient(to bottom right, #ffffff, #f8f9fa);
+            background: #ffffff; /* Solid white background for cards */
             border-left: none;
             text-decoration: none;
             color: #2c3e50;
-            border-radius: 12px;
-            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+            border-radius: 10px; /* Slightly less rounded */
+            transition: all 0.3s ease-in-out; /* Smoother transition */
+            box-shadow: 0 5px 15px rgba(0,0,0,0.07); /* More pronounced shadow */
             position: relative;
             overflow: hidden;
-            border: 1px solid rgba(0,0,0,0.03);
+            /* border: 1px solid rgba(0,0,0,0.03); Removed for cleaner look with shadow */
         }
         
         .project-link:hover {
-            background: linear-gradient(to bottom right, #ffffff, #f0f8ff);
-            transform: translateY(-3px);
-            box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+            background: #fdfdfd; /* Very subtle hover change for background */
+            transform: translateY(-4px); /* Slightly more lift */
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1); /* Deeper shadow on hover */
         }
         
         .project-link::before {
@@ -78,7 +78,7 @@
             height: 100%;
             width: 6px;
             background: linear-gradient(to bottom, #2ecc71, #3498db);
-            opacity: 0.8;
+            opacity: 0.9; /* Slightly more opaque */
         }
         
         .github-project::before {
@@ -91,11 +91,11 @@
         
         /* Specific hover background for github-project and serenus-project if different from general .project-link:hover */
         .github-project:hover {
-            background: linear-gradient(to bottom right, #ffffff, #f8f4ff); /* Adjusted for GitHub theme */
+            background: #fdfdff; /* Adjusted for GitHub theme, subtle */
         }
         
         .serenus-project:hover {
-            background: linear-gradient(to bottom right, #ffffff, #ebf5fb); /* Adjusted for Serenus theme */
+            background: #fafdff; /* Adjusted for Serenus theme, subtle */
         }
         
         .project-title {
@@ -194,27 +194,27 @@
         <div class="project-desc">A decentralized network of ecovillages harmonizing humans and habitat, with zero-microplastic living and Web3 governance.</div>
     </a>
     
+    <a href="https://votex.rezkhan.net" class="project-link">
+        <div class="project-title">Votex</div>
+        <div class="project-desc">A next-generation voting platform with advanced preference modeling and consensus algorithms.</div>
+        <div class="project-tech">React · Next.js</div>
+    </a>
+
     <a href="https://github.com/DoctorKhan/quantum-resonance-ledger" class="project-link github-project">
         <div class="project-title">Quantum Resonance Ledger</div>
         <div class="project-desc">An experimental blockchain implementation leveraging quantum computing principles for enhanced consensus mechanisms and cryptographic security.</div>
     </a>
-    
-    <a href="https://votex.rezkhan.net" class="project-link">
-        <div class="project-title">Votex</div>
-        <div class="project-desc">A next-generation voting platform with advanced preference modeling and consensus algorithms.</div>
-        <div class="project-tech">React · Node.js · GraphQL</div>
-    </a>
-    
+        
     <a href="https://guide.serenus.one" class="project-link serenus-project">
         <div class="project-title">Serenus Guide</div>
         <div class="project-desc">A comprehensive guide for contemplative practice, personal development, and non-dual awareness.</div>
-        <div class="project-tech">Markdown · React · Gatsby</div>
+        <div class="project-tech">React · Python · GraphQL · Postgres</div>
     </a>
     
     <a href="https://github.com/DoctorKhan/cosmic-shift" class="project-link github-project">
         <div class="project-title">Cosmic Shift</div>
         <div class="project-desc">A fast-paced platform shooter game set in a futuristic universe, featuring dynamic levels and engaging gameplay.</div>
-        <div class="project-tech">Unity · C# · WebGL</div>
+        <div class="project-tech">Python · Pygame</div>
     </a>
     
     <footer>
