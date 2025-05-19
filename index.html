@@ -42,12 +42,31 @@
             border-radius: 6px;
             transition: all 0.3s ease;
             box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            position: relative;
+            overflow: hidden;
         }
         
         .project-link:hover {
             background-color: #eafaf1;
             border-left-color: #27ae60;
             transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        
+        .project-link::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(to right, #2ecc71, transparent);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .project-link:hover::before {
+            opacity: 1;
         }
         
         .github-project {
@@ -80,6 +99,16 @@
         .project-desc {
             color: #7f8c8d;
             font-size: 0.9em;
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+        
+        .project-tech {
+            color: #95a5a6;
+            font-size: 0.8em;
+            font-family: monospace;
+            padding-top: 8px;
+            border-top: 1px dotted #ecf0f1;
         }
         
         .project-subtitle {
@@ -162,16 +191,19 @@
     <a href="https://votex.rezkhan.net" class="project-link">
         <div class="project-title">Votex</div>
         <div class="project-desc">A next-generation voting platform with advanced preference modeling and consensus algorithms.</div>
+        <div class="project-tech">React · Node.js · GraphQL</div>
     </a>
     
     <a href="https://guide.serenus.one" class="project-link serenus-project">
         <div class="project-title">Serenus Guide</div>
         <div class="project-desc">A comprehensive guide for contemplative practice, personal development, and non-dual awareness.</div>
+        <div class="project-tech">Markdown · React · Gatsby</div>
     </a>
     
     <a href="https://github.com/DoctorKhan/cosmic-shift" class="project-link github-project">
         <div class="project-title">Cosmic Shift</div>
         <div class="project-desc">A fast-paced platform shooter game set in a futuristic universe, featuring dynamic levels and engaging gameplay.</div>
+        <div class="project-tech">Unity · C# · WebGL</div>
     </a>
     
     </div>
