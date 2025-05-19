@@ -9,20 +9,37 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             line-height: 1.6;
             color: #333;
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #fafafa;
+            background-color: #f7fafc;
         }
         
         h1 {
             color: #2c3e50;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 10px;
-            margin-bottom: 30px;
+            border-bottom: none;
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+            text-align: center;
+            font-size: 2.5rem;
+            position: relative;
+            display: inline-block;
+            width: 100%;
         }
         
-        h2 {
+        h1::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(to right, #2ecc71, #3498db);
+            border-radius: 2px;
+        }
+        
+        h2 { /* Kept for potential future use, though the section using it is removed for now */
             color: #2c3e50;
             margin-top: 40px;
             margin-bottom: 15px;
@@ -34,23 +51,23 @@
         .project-link {
             display: block;
             margin: 20px 0;
-            padding: 20px;
-            background-color: #ffffff;
-            border-left: 4px solid #2ecc71;
+            padding: 24px;
+            background: linear-gradient(to bottom right, #ffffff, #f8f9fa);
+            border-left: none;
             text-decoration: none;
             color: #2c3e50;
-            border-radius: 6px;
-            transition: all 0.3s ease;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            border-radius: 12px;
+            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
             position: relative;
             overflow: hidden;
+            border: 1px solid rgba(0,0,0,0.03);
         }
         
         .project-link:hover {
-            background-color: #eafaf1;
-            border-left-color: #27ae60;
-            transform: translateX(5px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            background: linear-gradient(to bottom right, #ffffff, #f0f8ff);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.08);
         }
         
         .project-link::before {
@@ -58,33 +75,27 @@
             position: absolute;
             top: 0;
             left: 0;
-            width: 100%;
-            height: 3px;
-            background: linear-gradient(to right, #2ecc71, transparent);
-            opacity: 0;
-            transition: opacity 0.3s ease;
+            height: 100%;
+            width: 6px;
+            background: linear-gradient(to bottom, #2ecc71, #3498db);
+            opacity: 0.8;
         }
         
-        .project-link:hover::before {
-            opacity: 1;
+        .github-project::before {
+            background: linear-gradient(to bottom, #6e5494, #4c3a67);
         }
         
-        .github-project {
-            border-left-color: #6e5494; /* GitHub purple */
+        .serenus-project::before {
+            background: linear-gradient(to bottom, #3498db, #2980b9);
         }
         
+        /* Specific hover background for github-project and serenus-project if different from general .project-link:hover */
         .github-project:hover {
-            background-color: #f8f4ff;
-            border-left-color: #4c3a67;
-        }
-        
-        .serenus-project {
-            border-left-color: #3498db; /* Blue */
+            background: linear-gradient(to bottom right, #ffffff, #f8f4ff); /* Adjusted for GitHub theme */
         }
         
         .serenus-project:hover {
-            background-color: #ebf5fb;
-            border-left-color: #2980b9;
+            background: linear-gradient(to bottom right, #ffffff, #ebf5fb); /* Adjusted for Serenus theme */
         }
         
         .project-title {
@@ -111,30 +122,30 @@
             border-top: 1px dotted #ecf0f1;
         }
         
-        .project-subtitle {
+        .project-subtitle { /* Kept for potential future use */
             font-weight: normal;
             font-size: 0.8em;
             color: #7f8c8d;
             margin-left: 8px;
         }
         
-        .github-icon {
+        .github-icon { /* Kept for potential future use if icons are re-added to titles */
             width: 22px;
             height: 22px;
             transition: transform 0.2s;
         }
         
-        .github-icon:hover {
+        .github-icon:hover { /* Kept for potential future use */
             transform: scale(1.1);
         }
         
-        .projects-grid {
+        .projects-grid { /* Kept for potential future use */
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
             gap: 20px;
         }
         
-        .tag {
+        .tag { /* Kept for potential future use */
             font-size: 0.7em;
             padding: 2px 8px;
             border-radius: 12px;
@@ -143,7 +154,7 @@
             background-color: #95a5a6;
         }
         
-        .tag.academic {
+        .tag.academic { /* Kept for potential future use */
             background-color: #9b59b6;
         }
         
@@ -206,8 +217,6 @@
         <div class="project-tech">Unity · C# · WebGL</div>
     </a>
     
-    </div>
-
     <footer>
         <p>© 2025 Rez Khan. All projects are available under their respective licenses.</p>
         <div class="social-links">
