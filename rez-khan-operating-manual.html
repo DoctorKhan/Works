@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rez Khan Operating Manual</title>
+    <style>
+        :root {
+            /* Color Palette */
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --accent-secondary: #2ecc71;
+            --background-primary: #f8fafc;
+            --background-secondary: #ffffff;
+            --text-primary: #2d3748;
+            --text-secondary: #4a5568;
+            --text-muted: #718096;
+            --border-color: #e2e8f0;
+            --shadow-light: rgba(0, 0, 0, 0.05);
+            --shadow-medium: rgba(0, 0, 0, 0.1);
+            
+            /* Gradients */
+            --gradient-primary: linear-gradient(135deg, var(--accent-secondary), var(--accent-color));
+            
+            /* Spacing */
+            --spacing-xs: 0.25rem;
+            --spacing-sm: 0.5rem;
+            --spacing-md: 1rem;
+            --spacing-lg: 1.5rem;
+            --spacing-xl: 2rem;
+            --spacing-2xl: 3rem;
+            
+            /* Border Radius */
+            --radius-sm: 0.375rem;
+            --radius-md: 0.5rem;
+            --radius-lg: 0.75rem;
+            --radius-xl: 1rem;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.7;
+            color: var(--text-primary);
+            max-width: 900px;
+            margin: 0 auto;
+            padding: var(--spacing-xl);
+            background: var(--background-primary);
+            background-image: 
+                radial-gradient(circle at 25% 25%, rgba(52, 152, 219, 0.03) 0%, transparent 50%),
+                radial-gradient(circle at 75% 75%, rgba(46, 204, 113, 0.03) 0%, transparent 50%);
+            min-height: 100vh;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: var(--spacing-2xl);
+            padding: var(--spacing-xl);
+            background: var(--background-secondary);
+            border-radius: var(--radius-lg);
+            box-shadow: 0 4px 6px -1px var(--shadow-light);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: clamp(2rem, 5vw, 2.75rem);
+            font-weight: 700;
+            margin-bottom: var(--spacing-sm);
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            color: var(--text-secondary);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .description {
+            font-style: italic;
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        .section {
+            background: var(--background-secondary);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-xl);
+            margin-bottom: var(--spacing-xl);
+            box-shadow: 0 4px 6px -1px var(--shadow-light);
+            border-left: 4px solid var(--accent-color);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: var(--spacing-lg);
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+        }
+
+        .section-number {
+            background: var(--gradient-primary);
+            color: white;
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: var(--spacing-md) 0;
+            background: white;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            box-shadow: 0 2px 4px var(--shadow-light);
+        }
+
+        th, td {
+            padding: var(--spacing-md);
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            background: var(--gradient-primary);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: rgba(52, 152, 219, 0.05);
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(46, 204, 113, 0.1), rgba(52, 152, 219, 0.1));
+            border: 1px solid rgba(46, 204, 113, 0.2);
+            border-radius: var(--radius-md);
+            padding: var(--spacing-lg);
+            margin: var(--spacing-md) 0;
+        }
+
+        .energy-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--spacing-lg);
+            margin: var(--spacing-md) 0;
+        }
+
+        .energy-column {
+            padding: var(--spacing-lg);
+            border-radius: var(--radius-md);
+            text-align: center;
+        }
+
+        .fills-tank {
+            background: linear-gradient(135deg, rgba(46, 204, 113, 0.1), rgba(46, 204, 113, 0.05));
+            border: 2px solid rgba(46, 204, 113, 0.3);
+        }
+
+        .drains-tank {
+            background: linear-gradient(135deg, rgba(231, 76, 60, 0.1), rgba(231, 76, 60, 0.05));
+            border: 2px solid rgba(231, 76, 60, 0.3);
+        }
+
+        .energy-column h4 {
+            margin-bottom: var(--spacing-md);
+            font-weight: 600;
+        }
+
+        .fills-tank h4 {
+            color: #27ae60;
+        }
+
+        .drains-tank h4 {
+            color: #e74c3c;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            padding: var(--spacing-sm) 0;
+            position: relative;
+            padding-left: var(--spacing-lg);
+        }
+
+        li::before {
+            content: "•";
+            color: var(--accent-color);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .escalation-steps {
+            counter-reset: step-counter;
+        }
+
+        .escalation-steps li {
+            counter-increment: step-counter;
+            padding-left: var(--spacing-2xl);
+        }
+
+        .escalation-steps li::before {
+            content: counter(step-counter);
+            background: var(--gradient-primary);
+            color: white;
+            width: 1.5rem;
+            height: 1.5rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            font-weight: 700;
+            position: absolute;
+            left: 0;
+            top: var(--spacing-sm);
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: var(--spacing-xl);
+            padding: var(--spacing-sm) var(--spacing-md);
+            border-radius: var(--radius-md);
+            transition: all 0.3s ease;
+        }
+
+        .back-link:hover {
+            background: rgba(52, 152, 219, 0.1);
+            transform: translateX(-2px);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: var(--spacing-2xl);
+            padding: var(--spacing-lg);
+            color: var(--text-muted);
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: var(--spacing-md);
+            }
+            
+            .energy-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            table {
+                font-size: 0.9rem;
+            }
+            
+            th, td {
+                padding: var(--spacing-sm);
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">
+        ← Back to Portfolio
+    </a>
+
+    <div class="header">
+        <h1>Personal Operating Manual</h1>
+        <div class="subtitle">Rez Khan</div>
+        <div class="description">
+            Share this guide with teammates, managers, clients, or investors so everyone knows how to get the best out of me.
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><span class="section-number">1</span>Working-Style Snapshot</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Trait</th>
+                    <th>What It Means in Practice</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Deep-Focus Builder</strong></td>
+                    <td>At my best when I go heads-down on thorny security/code problems for 2–4 h stretches.</td>
+                </tr>
+                <tr>
+                    <td><strong>Novelty-Fuelled</strong></td>
+                    <td>New challenges light me up; repetitive admin dulls my attention.</td>
+                </tr>
+                <tr>
+                    <td><strong>Outcome-Driven</strong></td>
+                    <td>Clear "Definition of Done" + metric beats process discussion every time.</td>
+                </tr>
+                <tr>
+                    <td><strong>Neurodivergent (ADHD)</strong></td>
+                    <td>Calendar pings & rapid-fire Slack threads can slip past unless they're unmistakable.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2><span class="section-number">2</span>Core Hours & Availability</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>When (PT)</th>
+                    <th>What I'm Doing</th>
+                    <th>How to Reach Me</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>10 a.m.–2 p.m. (Mon–Fri)</strong></td>
+                    <td>Deep-work block (code, audits, design docs)</td>
+                    <td><em>Asynchronous only</em> → GitHub issues / Linear tickets</td>
+                </tr>
+                <tr>
+                    <td><strong>2 p.m.–3 p.m. (Mon–Thu)</strong></td>
+                    <td>Meeting / pair-programming window</td>
+                    <td>Google Meet / Zoom (link in calendar invite)</td>
+                </tr>
+                <tr>
+                    <td><strong>3 p.m.–6 p.m.</strong></td>
+                    <td>Email & Slack triage, reviews, async updates</td>
+                    <td>Slack thread / email</td>
+                </tr>
+                <tr>
+                    <td><strong>Outside those hours</strong></td>
+                    <td>Personal time, research, surf/martial arts</td>
+                    <td>Tag as <strong>URGENT</strong> (see Escalations)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2><span class="section-number">3</span>Communication Rules</h2>
+        <div class="highlight-box">
+            <h4>Primary Channels</h4>
+            <ul>
+                <li><strong>Project work</strong> → GitHub / Linear</li>
+                <li><strong>Quick questions</strong> → Slack (thread, not DM)</li>
+                <li><strong>Formal decisions</strong> → Google Doc comment / Notion page</li>
+            </ul>
+        </div>
+
+        <div class="highlight-box">
+            <h4>Response SLA</h4>
+            <ul>
+                <li><strong>Standard:</strong> < 24 h weekdays</li>
+                <li><strong>Urgent:</strong> tag <code>@rez NOW</code> <strong>and</strong> WhatsApp → reply ≤ 60 min if awake</li>
+            </ul>
+        </div>
+
+        <div class="highlight-box">
+            <h4>Meetings & Format</h4>
+            <ul>
+                <li>One 30-min weekly squad sync with agenda; decline others lacking purpose</li>
+                <li>Written > verbal; Loom > live demo</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><span class="section-number">4</span>How to Help Me Help You</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Need</th>
+                    <th>What You Can Do</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Clear scope</strong></td>
+                    <td>Acceptance criteria, success metric & deadline up front</td>
+                </tr>
+                <tr>
+                    <td><strong>Timely feedback</strong></td>
+                    <td>Comment on PRs/docs within 48 h so momentum stays high</td>
+                </tr>
+                <tr>
+                    <td><strong>Minimise context switching</strong></td>
+                    <td>Batch small asks into one ticket/doc review</td>
+                </tr>
+                <tr>
+                    <td><strong>Signal urgency</strong></td>
+                    <td>Use <code>@rez NOW</code> or SMS; otherwise I assume standard priority</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2><span class="section-number">5</span>What You Can Expect From Me</h2>
+        <ul>
+            <li><strong>High-quality security work</strong> — thorough audits, repro steps, fix recs</li>
+            <li><strong>Rapid prototypes</strong> — V1 in days, not weeks</li>
+            <li><strong>Written transparency</strong> — daily GitHub/Linear updates & end-of-week summary</li>
+            <li><strong>Respect for autonomy</strong> — no micromanagement; assume same freedom</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2><span class="section-number">6</span>Motivation & Energy Management</h2>
+        <div class="energy-grid">
+            <div class="energy-column fills-tank">
+                <h4>Fills My Tank</h4>
+                <ul>
+                    <li>Solving novel technical puzzles</li>
+                    <li>Public scoreboards / hack-days</li>
+                    <li>Surf & Filipino martial-arts breaks</li>
+                    <li>Tight deadlines with clear impact</li>
+                </ul>
+            </div>
+            <div class="energy-column drains-tank">
+                <h4>Drains My Tank</h4>
+                <ul>
+                    <li>Endless status meetings</li>
+                    <li>Slack pings with no context</li>
+                    <li>Vague requirements, shifting goals</li>
+                    <li>Long email chains asking for opinions</li>
+                </ul>
+            </div>
+        </div>
+        <div class="highlight-box">
+            <p>If my energy dips, a 15-min brainstorm on the bigger <em>why</em> usually re-ignites me.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><span class="section-number">7</span>Escalation Ladder</h2>
+        <ul class="escalation-steps">
+            <li>Tag <code>@rez NOW</code> in Slack</li>
+            <li>Call me</li>
+            <li>Escalate to my Ops Partner / PM (listed in project charter)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2><span class="section-number">8</span>Long-Term Career Goals (Context)</h2>
+        <ul>
+            <li>Build defensible, privacy-preserving security products for human-flourishing tech</li>
+            <li>Scale <strong>Gaia Flow State</strong>: global zero-microplastic wellness network</li>
+        </ul>
+        <div class="highlight-box">
+            <p>Know this when routing opportunities or collaborations.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><span class="section-number">9</span>"Parking Lot" Topics</h2>
+        <p>I keep a running list of interesting ideas that aren't for this season. If I park your idea, it's not <em>no</em>—just <em>not now</em>. Remind me next season.</p>
+    </div>
+
+    <div class="footer">
+        <p><em>Last updated: May 2025 — feedback welcome!</em></p>
+    </div>
+
+</body>
+</html>
